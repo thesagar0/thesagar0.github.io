@@ -1,86 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sagar Digambar Jawale</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sagar Digambar Jawale | M.Sc. Physics</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#06142d;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.45);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#4da6ff;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+transition:.3s;
+}
+
+nav a:hover{
+color:#4da6ff;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7));
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero h2{
+font-size:28px;
+margin-top:10px;
+color:#4da6ff;
+}
+
+.hero p{
+margin-top:20px;
+font-size:18px;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 35px;
+background:#4da6ff;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+background:#2d8cff;
+}
+
+section{
+padding:90px 10%;
+}
+
+.card{
+background:#10284f;
+padding:25px;
+border-radius:15px;
+margin-top:20px;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#02101f;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-  <nav>
-    <h2>Sagar Jawale</h2>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+
+<div class="logo">⚛ SJ</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
 </header>
 
-<section id="home" class="hero">
-  <img src="profile.jpg" alt="Sagar Jawale" class="profile">
+<section class="hero">
 
-  <h1>Sagar Digambar Jawale</h1>
+<div>
 
-  <h3>M.Sc. Physics (First Year)</h3>
+<h1>Sagar Digambar Jawale</h1>
 
-  <p>
-    R. B. Narayanrao Borawake College,
-    Shrirampur - 413709
-  </p>
+<h2>M.Sc. Physics Student</h2>
 
-  <a href="mailto:jawalesagar0987@gmail.com" class="btn">
-    Contact Me
-  </a>
+<p>
+
+Learning today, discovering tomorrow.
+
+Passionate about Physics, Research, Innovation and Technology.
+
+</p>
+
+<a href="#about" class="btn">Explore Profile</a>
+
+</div>
 
 </section>
 
 <section id="about">
 
-<h2>About Me</h2>
+<h1>About Me</h1>
+
+<div class="card">
 
 <p>
-I am an M.Sc. Physics First Year student passionate about Physics, Research, Technology and Innovation. I enjoy learning new concepts and developing practical projects.
+
+I am Sagar Digambar Jawale, an M.Sc. Physics student at R. B. Narayanrao Borawake College, Shrirampur under Savitribai Phule Pune University.
+
+I am passionate about Physics, research, technology and innovation. My goal is to continuously learn and apply Physics to solve real-world problems.
+
 </p>
+
+</div>
 
 </section>
 
 <section id="education">
 
-<h2>Education</h2>
+<h1>Education</h1>
 
-<ul>
-<li>B.Sc. Physics</li>
-<li>M.Sc. Physics (First Year)</li>
+<div class="card">
 
-</ul>
+<h2>M.Sc. Physics</h2>
+
+<p>2026-Present</p>
+
+<p>R.B. Narayanrao Borawake College, Shrirampur</p>
+
+</div>
+
+<div class="card">
+
+<h2>B.Sc. Physics</h2>
+
+<p>CGPA : 8.82</p>
+
+<p>2023-2026</p>
+
+</div>
+
+<div class="card">
+
+<h2>HSC</h2>
+
+<p>60.50%</p>
+
+<p>2023</p>
+
+</div>
+
+<div class="card">
+
+<h2>SSC</h2>
+
+<p>79.80%</p>
+
+<p>2021</p>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h1>Projects</h1>
+
+<div class="card">
+
+<h2>Smart Irrigation System</h2>
+
+<p>
+
+An IoT based agriculture project developed for efficient water management.
+
+Presented in Aavishkar Competition.
+
+</p>
+
+</div>
 
 </section>
 
 <section id="contact">
 
-<h2>Contact</h2>
+<h1>Contact</h1>
+
+<div class="card">
 
 <p>Email : jawalesagar0987@gmail.com</p>
 
-<p>
-LinkedIn :
-<a href="https://www.linkedin.com/in/sagar-jawale-1b2a3731a">
-View Profile
-</a>
-</p>
+<p>Phone : 7219609627</p>
+
+<p>Location : Chanda, Tal. Nevasa, Dist. Ahilyanagar</p>
+
+</div>
 
 </section>
 
 <footer>
 
-<p>© 2026 Sagar Digambar Jawale</p>
+© 2026 Sagar Digambar Jawale | All Rights Reserved
 
 </footer>
 
 </body>
+
 </html>
